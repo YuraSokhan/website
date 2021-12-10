@@ -1,0 +1,23 @@
+table{
+    border: 7px solid green;
+    border-collapse: collapse;
+    border-style:inset;
+    caption-side: bottom;
+}
+tr, th {
+    border: 7px solid green; 
+    border-style:inset;
+}
+
+.one {
+    position:absolute; 
+    top:8px;
+    left:1430px;
+}
+.two { 
+    position:absolute; 
+    top:8px;
+    left:1340px;
+}
+.three {text-align: center;}
+body {background: url("12.jpg")};

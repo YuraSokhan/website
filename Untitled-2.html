@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <LINK rel = "stylesheet" href = "style.css" type = "text/css">
+		<title>HTML</title>
+		<meta charset="utf-8"/> 
+        <style>
+            div {
+             color: rgba(132, 165, 14, 0.979);
+            }
+           </style>
+	</head>
+	<body>
+        <script type="text/javascript">
+            function fun() {
+        		window.open("1.html","name","width=300,height=400")
+			}
+            function fun1() {
+        		window.open("2.html","name","width=600,height=600")
+			}
+        </script>
+
+        
+        <div>
+            <div class="three"><h1>Сохан Юрій КНМС-32</h1></div>
+            <div class="one"><button onclick="fun()"><h3>Контакти</h3></button></div>
+            <div class="two"><button onclick="fun1()"><h3>Про нас</h3></button></div>
+            <form>
+                <fieldset>
+                    <legend>Registration</legend>
+                    Email: <br><input type = "email" placeholder = "email..." name = "email"> <br>
+                    Password <br><input type = "password" placeholder = "password..." name = "password"> <br><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal data</legend> <br>
+                    Choose a photo avatar:
+                    <input type="file" name="file">
+                    <input type="submit" value="Відправити"><br><br>
+
+                    Enter your first and last name <br> <input type = "text" placeholder = "Last name Name " name = "field1"> <br><br><br>
+
+                    Select gender <br>
+                    <input type = "radio" name = "gender" value = "male" checked> male <br>
+                    <input type = "radio" name = "gender" value = "female"> female <br><br><br>
+
+                    Enter the date of birth
+                    <input type = "date" name = "calendar" value = "2003-03-03"
+                    max = "2021-12-31" min = "1920-11-3">  <br><br>
+
+                    Choose your city
+                    <select name = "select">
+                    <option selected value = "s1"> Lviv</option>
+                    <option selected value = "s2"> Kyiv</option>
+                    <option selected value = "s3"> Odessa</option>
+                    <option selected value = "s4"> Kharkiv</option>
+                    <option selected value = "s5"> Ternopil</option>
+                    <option selected value = "s6"> Zhytomyr</option>
+                    <option selected value = "s7"> Sumy</option>
+                    <option selected value = "s8"> Poltava</option>
+                    <option selected value = "s9"> Dnipro</option>
+                    </select><br><br>   
+                    
+                    Write your message <br>
+                    <textarea cols="30" rows="10">
+                    </textarea> <br><br> 
+                        
+                    Fill in the cells if you are not a robot
+                    <input type = "checkbox" name = "1" value = "1">
+                    <input type = "checkbox" name = "1" value = "1">
+                    <input type = "checkbox" name = "2" value = "2">
+                    <input type = "checkbox" name = "3" value = "3">
+                    <input type = "checkbox" name = "4" value = "4"><br>
+                </fieldset>
+                
+                <input type = "submit" value = "Send">
+                <button type="reset">Clear</button> <br>
+                
+            </form>
+        </div>
+	</body>
+</html>
